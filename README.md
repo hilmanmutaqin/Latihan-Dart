@@ -1,0 +1,2 @@
+Sebuah program yang memanggil dua parameter yaitu nama dan juga jurusan yang di simpan pada void biodata.
+yang kemuadian fungsi main akan mengeksekusi dan melakukan pemanggilan fungsi biodata() sesuai dengan parameter yang diberikan.
