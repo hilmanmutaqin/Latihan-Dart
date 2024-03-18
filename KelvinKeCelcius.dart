@@ -1,5 +1,10 @@
 void main() {
-  double suhuKelvin = 300.0;
+  double suhuKelvin = 320;
   double suhuCelsius = suhuKelvin - 273.15;
-  print('$suhuKelvin derajat Kelvin = $suhuCelsius derajat Celsius');
+
+  String formatSuhu(double suhu) {
+    return suhu.toStringAsFixed(2);
+  }
+
+  print('${formatSuhu(suhuKelvin)} derajat Kelvin = ${formatSuhu(suhuCelsius)} derajat Celsius');
 }
